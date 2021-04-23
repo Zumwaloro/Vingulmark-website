@@ -1,0 +1,32 @@
+
+/*background*/
+html {
+    background: url(../img/background/bckgrnd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/*containers*/
+#home-container {
+    background-color: black;
+    display: flex;
+    align-items: center;}
+
+#header-logo-container {
+    background-color: black;
+}
+
+
+/*icons*/
+#header-icon {
+    color: whitesmoke;
+    font-size: 5vw;
+    padding: .75rem;
+}
+
+#header-icon:hover {
+    transition: 0.4s;
+    color: darkred;
+}
