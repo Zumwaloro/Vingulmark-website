@@ -1,6 +1,6 @@
 
 /*background*/
-html {
+body {
     background: url(../img/background/bckgrnd.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,23 +10,54 @@ html {
 
 /*containers*/
 #home-container {
-    background-color: black;
     display: flex;
-    align-items: center;}
-
+    align-items: center;
+}
 #header-logo-container {
     background-color: black;
 }
-
+#home-img-container {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+#img-holder {
+    margin: 1rem;
+}
 
 /*icons*/
 #header-icon {
     color: whitesmoke;
-    font-size: 5vw;
+    font-size: 3.5vw;
     padding: .75rem;
 }
-
 #header-icon:hover {
     transition: 0.4s;
     color: darkred;
+}
+
+/*img*/
+#home-img {
+    border-radius: 10px;
+    border: 5px dotted whitesmoke;
+}
+
+/*menu*/
+#menu-item {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#menu-item:hover {
+    transition: 0.4s;
+    color: darkred;
+    cursor: pointer;
+}
+#menu-item-wrapper {
+    padding: 1rem;
+}
+#navbar {
+    background: linear-gradient(to top, transparent, black, 10%, black);
+}
+#toggler {
+    background-color: whitesmoke;
 }
