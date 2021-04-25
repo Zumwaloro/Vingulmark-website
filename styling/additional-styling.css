@@ -20,8 +20,14 @@ body {
     border-radius: 10px;
     background-color: rgba(0,0,0,0.5);
 }
+#img-with-text-container {
+    background-color: rgba(0,0,0,0.8);
+}
 #img-holder {
     margin: 1rem;
+}
+#text-container {
+    color: whitesmoke;
 }
 
 /*icons*/
