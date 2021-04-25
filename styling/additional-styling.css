@@ -53,6 +53,11 @@ body {
     border: 5px dotted whitesmoke;
 }
 
+/*text*/
+#link-text {
+    color: darkred;
+}
+
 /*menu*/
 #menu-item {
     color: whitesmoke;
